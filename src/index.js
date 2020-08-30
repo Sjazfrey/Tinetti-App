@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import 'jquery';
-import './bootstrap.min.css'
+// import '../public/bootstrap.min.css'
 
 ReactDOM.render(
   <React.StrictMode>
