@@ -25,25 +25,12 @@ export default class Home extends Component {
         let name = target.name;
         console.log(name)
         
-        // if(target.checked){
+     
             this.state.tinetti[name] = parseInt(value);  
-            // console.log("if") 
-        // }else{
-        //     this.state.tinetti.splice(value, 1);
-        //     console.log("else")
-        // }
+      
         
     };
 
-    // <div className="radio-buttons">
-    //     <input
-    //         id=""
-    //         value=
-    //         name=""
-    //         type="radio"
-    //         onChange={this.handleChange}>
-    //     </input>
-    // </div>
     
 
     submit(event){

@@ -2,14 +2,7 @@ import React, {Component} from 'react'
 
 export default class HomeView extends Component {
 
-    // constructor(){
-    //     super()
-    //     this.state ={};
-    //    this.handleSubmit = this.handleSubmit.bind(this);
-    // }
-    // handleSubmit(event){
-    //     this.setState({value: event.target.value});
-    // }
+  
         render(){
             return(
                 // <!-- show informatin of entry.   Bootstrap website -->
@@ -32,14 +25,11 @@ export default class HomeView extends Component {
                                 <div>Total Score:
                                    {this.props.totalanswer}
                                  </div>   
-                                {/* <form action="/         method="GET">
-                                    <input type="submit" value="Edit"/>
-                                    </form>
-                                    <a href= "#result"  className="btn btn-pill btn-info">Submit</a>  */}
+                                
                            </div>
                     </div>
                 
-                    {/* <a className "btn btn-primary" href="/assessment/all">Show all</a> */}
+                   
                 
                     {/* // <!-- info from bootstrap website https://getbootstrap.com/docs/4.1/layout/grid/--> */}
                     <div class="row no-gutter">
